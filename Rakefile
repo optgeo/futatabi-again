@@ -31,3 +31,10 @@ charites build style.yml docs/style.json
   EOS
 end
 
+desc 'host the site'
+task :host do
+  sh <<-EOS
+budo -d docs
+  EOS
+end
+
