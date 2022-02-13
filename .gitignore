@@ -1,2 +1,4 @@
 *.tif
 *.mbtiles
+.rake_tasks~
+

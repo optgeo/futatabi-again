@@ -1,0 +1,31 @@
+{
+  "version": 8,
+  "center": [
+    135.193326,
+    34.705834
+  ],
+  "zoom": 15.73,
+  "bearing": 60,
+  "pitch": 60,
+  "sources": {
+    "t": {
+      "type": "raster-dem",
+      "tiles": [
+        "https://x.optgeo.org/futatabisan/zxy/{z}/{x}/{y}.webp"
+      ],
+      "tileSize": 512,
+      "maxzoom": 16,
+      "attribution": "兵庫県_全域DSM"
+    }
+  },
+  "layers": [
+    {
+      "id": "shade",
+      "type": "hillshade",
+      "source": "t"
+    }
+  ],
+  "terrain": {
+    "source": "t"
+  }
+}
