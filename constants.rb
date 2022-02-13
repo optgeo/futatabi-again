@@ -1,0 +1,12 @@
+SRC_PATH = "/Users/hfu/Downloads/05of79/*.txt"
+TIF_FN = "tif.tif"
+SRS = "EPSG:6673"
+HERE_DIR = "/Users/hfu/futatabi-again"
+MOUNT_DIR = "/data"
+MBTILES_FN = "futatabisan.mbtiles"
+ZOOM = 15.73
+LAT = 34.705834
+LNG = 135.193326
+CONTENT_TYPE = 'image/webp'
+EXT = 'webp'
+PORT = 8004
