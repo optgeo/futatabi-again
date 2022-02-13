@@ -1,4 +1,4 @@
-SRC_PATH = "/Users/hfu/Downloads/05of79/*.txt"
+SRC_PATH = "/Users/hfu/Downloads/all/*.txt"
 TIF_FN = "tif.tif"
 SRS = "EPSG:6673"
 HERE_DIR = "/Users/hfu/futatabi-again"

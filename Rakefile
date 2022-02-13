@@ -3,7 +3,7 @@ require './constants'
 desc 'create GeoTIFF file'
 task :tif do
   sh <<-EOS
-gdalwarp -s_srs #{SRS} #{SRC_PATH} #{TIF_PATH}
+gdalwarp -s_srs #{SRS} #{SRC_PATH} #{TIF_FN}
   EOS
 end
 

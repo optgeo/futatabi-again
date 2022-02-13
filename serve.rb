@@ -14,7 +14,6 @@ zoom_level=#{z} AND tile_column=#{x} AND tile_row=#{tile_row}
 end
 
 get "/zxy/:z/:x/:y.#{EXT}" do |z, x, y|
-  content_type #{CONTENT_TYPE}
   response.headers['Content-Type'] = CONTENT_TYPE
   get_tile(z, x, y)
 end
